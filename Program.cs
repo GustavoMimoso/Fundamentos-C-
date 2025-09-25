@@ -1,7 +1,20 @@
 ﻿using ExemploFundamentos.Models;
 
-DateTime dataAtual = DateTime.Now.AddDays(12);
-Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
+int a = 10;
+int b = 20;
+int c = a + b;
+
+Console.WriteLine(c);
+
+
+
+
+
+
+
+
+// DateTime dataAtual = DateTime.Now.AddDays(12);
+// Console.WriteLine(dataAtual.ToString("dd/MM/yyyy HH:mm"));
 
 
 

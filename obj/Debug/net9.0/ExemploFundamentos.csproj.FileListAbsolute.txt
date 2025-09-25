@@ -12,3 +12,4 @@ D:\Programação\ExemploFundamentos\obj\Debug\net9.0\refint\ExemploFundamentos.d
 D:\Programação\ExemploFundamentos\obj\Debug\net9.0\ExemploFundamentos.pdb
 D:\Programação\ExemploFundamentos\obj\Debug\net9.0\ExemploFundamentos.genruntimeconfig.cache
 D:\Programação\ExemploFundamentos\obj\Debug\net9.0\ref\ExemploFundamentos.dll
+D:\Programação\ExemploFundamentos\obj\Debug\net9.0\ExemploFundamentos.sourcelink.json
