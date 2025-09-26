@@ -5,14 +5,51 @@
 //int a = int.Parse("5");
 //Console.WriteLine(a);
 
+int quantidadeEmEstoque = 20;
 
+
+int quantidadeCompra = 4;
+
+Console.WriteLine("Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine("Quantidade de compra: {quantidadeCompra}");
+
+if (quantidadeEmEstoque >= quantidadeCompra)
+{
+    Console.WriteLine("Venda realizada!");
+}
+else
+{
+    Console.WriteLine("Desculpe. Não temos a quantidade desejada  em estoque.");
+}
+
+
+
+
+
+
+
+// string a = "15";
+// int b = Convert.ToInt32(a);
+// Console.WriteLine(b);
+
+
+
+
+//cast implicito
+// int a = 5;
+// double b = a;
+
+// int a = 5;
+// long b = a;
+// //ao contrario daria erro pois nao cabe o long dentro de int
+// Console.WriteLine(b);
 
 
 
 
 //int inteiro = 5;
 //string a = inteiro.ToString();
-Console.WriteLine(a);
+//Console.WriteLine(a);
 
 // int a = 10;
 // int b = 20;
@@ -25,7 +62,7 @@ Console.WriteLine(a);
 //c *= 5;
 
 
-Console.WriteLine(c);
+//Console.WriteLine(c);
 
 
 // DateTime dataAtual = DateTime.Now.AddDays(12);
