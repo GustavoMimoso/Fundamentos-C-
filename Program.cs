@@ -5,15 +5,14 @@
 //int a = int.Parse("5");
 //Console.WriteLine(a);
 
-int quantidadeEmEstoque = 20;
-
-
+int quantidadeEmEstoque = 3;
 int quantidadeCompra = 4;
+bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
 
-Console.WriteLine("Quantidade em estoque: {quantidadeEmEstoque}");
-Console.WriteLine("Quantidade de compra: {quantidadeCompra}");
-
-if (quantidadeEmEstoque >= quantidadeCompra)
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade de compra: {quantidadeCompra}");
+Console.WriteLine($"É possivel realizar a venda? {possivelVenda}");
+if (possivelVenda)
 {
     Console.WriteLine("Venda realizada!");
 }
