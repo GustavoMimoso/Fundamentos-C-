@@ -2,20 +2,35 @@
 using ExemploFundamentos.Models;
 
 
-Calculadora calc = new Calculadora();
+// Calculadora calc = new Calculadora();
 // calc.Somar(10, 30);
 // calc.Subtrair(10, 50);
 // calc.Multiplicar(20, 45);
 // calc.Divisao(2, 2);
 // calc.Potencia(3, 3);
-calc.Seno(30);
-calc.Coseno(30);
-calc.Tangente(30);
+// calc.Seno(30);
+// calc.Coseno(30);
+// calc.Tangente(30);
 
+// int numeroDeIncremento = 10;
 
+// Console.WriteLine(numeroDeIncremento);
 
+// Console.WriteLine("Incrementando o 10");
+// // numeroDeIncremento = numeroDeIncremento + 1;
+// numeroDeIncremento++;
 
+// Console.WriteLine(numeroDeIncremento);
 
+// int numeroDecremento = 20;
+
+// Console.WriteLine(numeroDecremento);
+
+// Console.WriteLine("Decrementando o 10");
+// // numeroDecremento = numeroDecremento - 1;
+// numeroDecremento--;
+
+// Console.WriteLine(numeroDecremento);
 
 
 // bool choveu = false;
