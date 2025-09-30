@@ -1,25 +1,81 @@
-﻿using ExemploFundamentos.Models;
+﻿using System.Runtime.InteropServices.Marshalling;
+using ExemploFundamentos.Models;
+
+
+
+Console.WriteLine("Digite uma letra:");
+string letra = Console.ReadLine();
+
+switch (letra)
+{
+    case "a":
+    case "u":
+    case "e":
+    case "i":
+    case "o":
+        Console.WriteLine("Vogal!");
+        break;
+    default:
+        Console.WriteLine("Não é um vogal");
+        break;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Console.WriteLine("Digite um numero");
+// String letra = Console.ReadLine();
+
+// if (letra == "a" ||
+//     letra == "e" ||
+//     letra == "i" ||
+//     letra == "o" ||
+//     letra == "u")
+// {
+//     Console.WriteLine("Vogal!");
+// }
+// else
+// {
+//     Console.WriteLine("Não é uma vogal");
+// }
+
+
+
 
 //cast-casting
 //int a = Convert.ToInt32("5");
 //int a = int.Parse("5");
 //Console.WriteLine(a);
 
-int quantidadeEmEstoque = 3;
-int quantidadeCompra = 4;
-bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+// int quantidadeEmEstoque = 3;
+// int quantidadeCompra = 4;
+// bool possivelVenda = quantidadeCompra > 0  && quantidadeEmEstoque >= quantidadeCompra;
 
-Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
-Console.WriteLine($"Quantidade de compra: {quantidadeCompra}");
-Console.WriteLine($"É possivel realizar a venda? {possivelVenda}");
-if (possivelVenda)
-{
-    Console.WriteLine("Venda realizada!");
-}
-else
-{
-    Console.WriteLine("Desculpe. Não temos a quantidade desejada  em estoque.");
-}
+// Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+// Console.WriteLine($"Quantidade de compra: {quantidadeCompra}");
+// Console.WriteLine($"É possivel realizar a venda? {possivelVenda}");
+// if (quantidadeCompra == 0)
+// {
+//    Console.WriteLine("Venda Invalida, é necessario ao menosnuma unidade");
+// }
+
+//  else if (possivelVenda)
+// {
+//     Console.WriteLine("Venda realizada!");
+// }
+// else
+// {
+//     Console.WriteLine("Desculpe. Não temos a quantidade desejada  em estoque.");
+// }
 
 
 
