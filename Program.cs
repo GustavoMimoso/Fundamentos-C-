@@ -2,7 +2,7 @@
 using ExemploFundamentos.Models;
 
 
-// Calculadora calc = new Calculadora();
+Calculadora calc = new Calculadora();
 // calc.Somar(10, 30);
 // calc.Subtrair(10, 50);
 // calc.Multiplicar(20, 45);
@@ -11,6 +11,7 @@ using ExemploFundamentos.Models;
 // calc.Seno(30);
 // calc.Coseno(30);
 // calc.Tangente(30);
+// calc.RaizQuadrada(9);
 
 // int numeroDeIncremento = 10;
 
