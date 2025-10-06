@@ -11,9 +11,9 @@ do
     
     soma += numero;
 
-}while(numero !=0 );
+} while(numero !=0 );
 
-Console.WriteLine($"Total da soma dos numeros digitados e: {soma} ")
+Console.WriteLine($"Total da soma dos numeros digitados e: {soma} ");
 
 
 
