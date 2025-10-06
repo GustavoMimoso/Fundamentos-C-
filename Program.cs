@@ -1,34 +1,38 @@
 ﻿using System.Runtime.InteropServices.Marshalling;
 using ExemploFundamentos.Models;
 
-int numero = 5;
-int contador = 0;
+int soma = 0, numero  = 0;
 
-while (contador <= 10)
+
+do 
 {
-    Console.WriteLine($"{contador}° Execução: {numero} x {contador} = {numero * contador}");
-    contador++;
+    Console.WriteLine("Digite um numero (0 para parar): ");
+    numero = Convert.ToInt32(Console.ReadLine());
+    
+    soma += numero;
 
-    if (contador == 5)
-    {
-        break;
-    }
-}
+}while(numero !=0 );
 
-
+Console.WriteLine($"Total da soma dos numeros digitados e: {soma} ")
 
 
 
 
 
 
+// int numero = 5;
+// int contador = 0;
 
+// while (contador <= 10)
+// {
+//     Console.WriteLine($"{contador}° Execução: {numero} x {contador} = {numero * contador}");
+//     contador++;
 
-
-
-
-
-
+//     if (contador == 5)
+//     {
+//         break;
+//     }
+// }
 
 // int numero = 10;
 
