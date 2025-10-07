@@ -1,20 +1,46 @@
-﻿using System.Runtime.InteropServices.Marshalling;
+﻿﻿using System.Runtime.InteropServices.Marshalling;
 using ExemploFundamentos.Models;
 
-int numero = 5;
-int contador = 0;
 
-while (contador <= 10)
+
+
+string opcao;
+bool exibirMenu = true;
+
+while(exibirMenu)
 {
-    Console.WriteLine($"{contador}° Execução: {numero} x {contador} = {numero * contador}");
-    contador++;
+    Console.WriteLine("Digite sua opcao: ");
+    Console.WriteLine("1 - Cadastrar cliente");
+    Console.WriteLine("2 - Buscar cliente");
+    Console.WriteLine("3 - Apagar cliente");
+    Console.WriteLine("4 - Encerrar");
 
-    if (contador == 5)
+    opcao = Console.ReadLine();
+
+    switch(opcao)
     {
-        break;
+        case "1":
+            Console.WriteLine("Cadastro de cliente");
+            break;
+        case "2": 
+            Console.WriteLine("Busca de cliente");
+            break;   
+        case "3":
+            Console.WriteLine("Apagar cliente");
+            break;
+        case "4":
+            Console.WriteLine("Encerrar");
+            exibirMenu = false;
+            //Environment.Exit(0);
+            break;    
+        default:
+            Console.WriteLine("Opcao Invalida");
+            break;    
+
     }
 }
 
+Console.WriteLine("O programa se encerrou!");
 
 
 
@@ -29,6 +55,44 @@ while (contador <= 10)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+// int soma = 0, numero  = 0;
+
+// do 
+// {
+//     Console.WriteLine("Digite um numero (0 para parar): ");
+//     numero = Convert.ToInt32(Console.ReadLine());
+    
+//     soma += numero;
+
+// } while(numero !=0 );
+
+// Console.WriteLine($"Total da soma dos numeros digitados e: {soma} ");
+
+// int numero = 5;
+// int contador = 0;
+
+// while (contador <= 10)
+// {
+//     Console.WriteLine($"{contador}° Execução: {numero} x {contador} = {numero * contador}");
+//     contador++;
+
+//     if (contador == 5)
+//     {
+//         break;
+//     }
+// }
 
 // int numero = 10;
 
