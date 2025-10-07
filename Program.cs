@@ -1,4 +1,4 @@
-﻿﻿using System.Runtime.InteropServices.Marshalling;
+﻿using System.Runtime.InteropServices.Marshalling;
 using ExemploFundamentos.Models;
 
 
@@ -6,7 +6,6 @@ using ExemploFundamentos.Models;
 
 string opcao;
 bool exibirMenu = true;
-
 while(exibirMenu)
 {
     Console.WriteLine("Digite sua opcao: ");
