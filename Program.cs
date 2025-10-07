@@ -1,24 +1,81 @@
 ﻿using System.Runtime.InteropServices.Marshalling;
 using ExemploFundamentos.Models;
 
-int soma = 0, numero  = 0;
 
 
-do 
+
+string opcao;
+while(true)
 {
-    Console.WriteLine("Digite um numero (0 para parar): ");
-    numero = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Digite sua opcao: ");
+    Console.WriteLine("1 - Cadastrar cliente");
+    Console.WriteLine("2 - Buscar cliente");
+    Console.WriteLine("3 - Apagar cliente");
+    Console.WriteLine("4 - Encerrar");
+
+    opcao = Console.ReadLine();
+
+    switch(opcao)
+    {
+        case "1":
+            Console.WriteLine("Cadastro de cliente");
+            break;
+        case "2": 
+            Console.WriteLine("Busca de cliente");
+            break;   
+        case "3":
+            Console.WriteLine("Apagar cliente");
+            break;
+        case "4":
+            Console.WriteLine("Encerrar");
+            Environment.Exit(0);
+            break;    
+        default:
+            Console.WriteLine("Opcao Invalida")
+            break;    
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int soma = 0, numero  = 0;
+
+// do 
+// {
+//     Console.WriteLine("Digite um numero (0 para parar): ");
+//     numero = Convert.ToInt32(Console.ReadLine());
     
-    soma += numero;
+//     soma += numero;
 
-} while(numero !=0 );
+// } while(numero !=0 );
 
-Console.WriteLine($"Total da soma dos numeros digitados e: {soma} ");
-
-
-
-
-
+// Console.WriteLine($"Total da soma dos numeros digitados e: {soma} ");
 
 // int numero = 5;
 // int contador = 0;
