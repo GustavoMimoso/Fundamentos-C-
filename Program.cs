@@ -31,7 +31,7 @@ while(true)
             Environment.Exit(0);
             break;    
         default:
-            Console.WriteLine("Opcao Invalida")
+            Console.WriteLine("Opcao Invalida");
             break;    
 
     }
