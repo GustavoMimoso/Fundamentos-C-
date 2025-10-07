@@ -1,10 +1,38 @@
 ﻿using System.Runtime.InteropServices.Marshalling;
 using ExemploFundamentos.Common.Models;
 
-Pessoa pessoa1 = new Pessoa();
-pessoa1.Nome = "Mimoso";
-pessoa1.Idade = 23;
-pessoa1.Apresentar();
+int[] arrayInteiros = new int[4];
+
+arrayInteiros[0] = 72;
+arrayInteiros[1] = 64;
+arrayInteiros[2] = 50;
+arrayInteiros[3] = 1;
+
+Console.WriteLine("Percorrendo o Array com o FOR");
+for (int contador = 0; contador < arrayInteiros.Length; contador++)
+{
+    Console.WriteLine($"Posição n° {contador} - {arrayInteiros[contador]}");
+}
+
+Console.WriteLine("Percorrendo o Array com o FOREACH");
+
+int contadorForeach = 0;
+foreach (int valor in arrayInteiros)
+{
+    Console.WriteLine($"Posição n° {contadorForeach} - {valor}");
+    contadorForeach++;
+}
+
+
+
+
+
+
+
+// Pessoa pessoa1 = new Pessoa();
+// pessoa1.Nome = "Mimoso";
+// pessoa1.Idade = 23;
+// pessoa1.Apresentar();
 
 // string opcao;
 // bool exibirMenu = true;
