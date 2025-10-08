@@ -8,18 +8,30 @@ List<string> listaString = new List<string>();
 listaString.Add("SP");
 listaString.Add("BA");
 listaString.Add("MG");
-Console.WriteLine("Percorrendo a lista com o FOR");
-for (int contador = 0; contador < listaString.Count; contador++)
-{
-    Console.WriteLine($"Posição n° {contador} - {listaString[contador]}");
-}
+listaString.Add("RJ");
 
-Console.WriteLine("Percorrendo a lista com o FOREACH");
-int contadorForeach = 0;
-foreach (string item in listaString)
-{
-    Console.WriteLine($"Posição n° {contadorForeach} - {item}");
-}
+Console.WriteLine($"Itens na minha lista : {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+listaString.Add("SC");
+
+Console.WriteLine($"Itens na minha lista : {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+listaString.Remove("MG");
+
+Console.WriteLine($"Itens na minha lista : {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+// Console.WriteLine("Percorrendo a lista com o FOR");
+// for (int contador = 0; contador < listaString.Count; contador++)
+// {
+//     Console.WriteLine($"Posição n° {contador} - {listaString[contador]}");
+// }
+
+// Console.WriteLine("Percorrendo a lista com o FOREACH");
+// int contadorForeach = 0;
+// foreach (string item in listaString)
+// {
+//     Console.WriteLine($"Posição n° {contadorForeach} - {item}");
+// }
 
 // int[] arrayInteiros = new int[4];
 
